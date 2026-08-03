@@ -1,0 +1,63 @@
+{
+  "project": {
+    "name": "MCP AI Bridge",
+    "version": "1.0.0",
+    "workspace": {
+      "home": "/storage/emulated/0/AndroStudioProjects",
+      "storage": "/storage/emulated/0/AndroStudioProjects",
+      "autoIndex": true,
+      "watch": true
+    }
+  },
+
+  "server": {
+    "host": "127.0.0.1",
+    "port": 6768
+  },
+
+  "mcp": {
+    "url": "http://127.0.0.1:6767",
+    "timeout": 30000,
+    "autoReconnect": true,
+    "retry": 5
+  },
+
+  "ai": {
+  "provider": "openai",
+  "model": "gpt-5.5",
+  "temperature": 1,
+  "maxTokens": 8192
+  },
+
+  "git": {
+    "enabled": true,
+    "autoCommit": false,
+    "branch": "main"
+  },
+
+  "apktool": {
+    "enabled": true,
+    "command": "apktool"
+  },
+
+  "jadx": {
+    "enabled": true,
+    "command": "jadx"
+  },
+
+  "adb": {
+    "enabled": true,
+    "command": "adb"
+  },
+
+  "frida": {
+    "enabled": true,
+    "command": "frida"
+  },
+
+  "logging": {
+    "level": "info",
+    "save": true,
+    "directory": "./logs"
+  }
+}

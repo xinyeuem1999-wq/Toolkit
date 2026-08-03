@@ -1,0 +1,39 @@
+{
+  "name": "mcp-ai-bridge",
+  "version": "1.0.0",
+  "description": "MCP AI Bridge for Android Development",
+  "type": "module",
+  "private": true,
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "check": "node --check src/server.js",
+    "lint": "node --check src/server.js"
+  },
+  "dependencies": {
+    "axios": "^1.11.0",
+    "compression": "^1.8.1",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "helmet": "^8.1.0",
+    "morgan": "^1.10.1"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "mcp",
+    "ai",
+    "bridge",
+    "android",
+    "apk",
+    "jadx",
+    "apktool",
+    "adb",
+    "frida",
+    "agent"
+  ],
+  "license": "MIT"
+}
